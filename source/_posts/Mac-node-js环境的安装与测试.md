@@ -11,7 +11,7 @@ tags:
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ~~~
 Homebrew官网 http://brew.sh/index_zh-cn.html
-![Homebrew 安装成功.png](http://upload-images.jianshu.io/upload_images/2925367-8c429114bbd9931c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Homebrew 安装成功.png](Mac-node-js环境的安装与测试/2925367-8c429114bbd9931c.png)
 
 <!-- more -->
 
@@ -20,11 +20,11 @@ Homebrew官网 http://brew.sh/index_zh-cn.html
 brew install node
 ~~~
 
-![安装 node.png](http://upload-images.jianshu.io/upload_images/2925367-ea7f099b5323db3d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![安装 node.png](Mac-node-js环境的安装与测试/2925367-ea7f099b5323db3d.png)
 
 第三步：查看node安装是否成功
 
-![查看node版本.png](http://upload-images.jianshu.io/upload_images/2925367-63b6ad3abdedf946.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![查看node版本.png](Mac-node-js环境的安装与测试/2925367-63b6ad3abdedf946.png)
 
 ### 2、新建测试程序
 第一步：新建一个文件test.js
@@ -50,7 +50,7 @@ srv.listen(8080, function() {
 
 第三步：通过浏览器进行访问，返回json格式的数据
 
-![浏览器访问.png](http://upload-images.jianshu.io/upload_images/2925367-fcf6e2be43ae0e51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![浏览器访问.png](Mac-node-js环境的安装与测试/2925367-fcf6e2be43ae0e51.png)
 
 第四步：前端就可以通过这个接口进行数据解析了。
 

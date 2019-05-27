@@ -16,7 +16,7 @@ tags:
 
 基础的按钮用法。
 
-![基础用法](https://ws3.sinaimg.cn/large/006tKfTcgy1fhut3w8gqqj30at02wjrl.jpg)
+![基础用法](自定义Vue2.0组件/006tKfTcgy1fhut3w8gqqj30at02wjrl.jpg)
 
 ```
 <sgs-button @click="buttonClickedBack()" type="default"></sgs-button>
@@ -32,7 +32,7 @@ tags:
 
 按钮禁用状态
 
-![禁用状态](https://ws3.sinaimg.cn/large/006tKfTcgy1fhut6gx9acj302905ojrc.jpg)
+![禁用状态](自定义Vue2.0组件/006tKfTcgy1fhut6gx9acj302905ojrc.jpg)
 
 ```
 <sgs-button @click="buttonClicked()" type="danger" disabled></sgs-button>
@@ -43,7 +43,7 @@ tags:
 
 让按钮不仅是文字
 
-![带图标按钮](https://ws3.sinaimg.cn/large/006tKfTcgy1fhut7xa8dsj30ky03x74r.jpg)
+![带图标按钮](自定义Vue2.0组件/006tKfTcgy1fhut7xa8dsj30ky03x74r.jpg)
 
 ```
 <sgs-button @click="buttonClicked()" icon="arrow-with-circle-down" iconPosition="left" type="default"  ></sgs-button>
@@ -59,7 +59,7 @@ tags:
 
 移动端的按钮图标的方向通常都是不定的
 
-![按钮方向](https://ws1.sinaimg.cn/large/006tKfTcgy1fhut94bg04j30kt04174k.jpg)
+![按钮方向](自定义Vue2.0组件/006tKfTcgy1fhut94bg04j30kt04174k.jpg)
 
 ```
 <sgs-button @click="buttonClicked()" icon="arrow-with-circle-down" iconPosition="left" type="default"  ></sgs-button>

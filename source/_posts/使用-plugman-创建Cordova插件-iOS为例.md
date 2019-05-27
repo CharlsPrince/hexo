@@ -14,19 +14,19 @@ tags:
 <!-- more -->
 
 npm 安装完成了以后可以执行 `npm -v` 验证下是否安装成功
-![npm 安装成功](http://upload-images.jianshu.io/upload_images/2925367-b9603e835d314770.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![npm 安装成功](使用-plugman-创建Cordova插件-iOS为例/2925367-b9603e835d314770.jpg)
 
 2. 安装 plugman (全局安装)
 
 > npm install -g plugman
 
 一般安装完成会出现这样的界面:
-![plugman 安装完成](http://upload-images.jianshu.io/upload_images/2925367-dbb4d5fb943e1379.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![plugman 安装完成](使用-plugman-创建Cordova插件-iOS为例/2925367-dbb4d5fb943e1379.jpg)
 
 安装完可以执行 `plugman -v` 验证下是否安装成功
 如安装成功: 
 
-![plugman 安装成功](http://upload-images.jianshu.io/upload_images/2925367-9efd0c08ff00c125.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![plugman 安装成功](使用-plugman-创建Cordova插件-iOS为例/2925367-9efd0c08ff00c125.jpg)
 
 
 ##### 到这一步基本准备工作已完成，下面就可以开始开发你的插件了。
@@ -36,7 +36,7 @@ npm 安装完成了以后可以执行 `npm -v` 验证下是否安装成功
 
  为了方便找到和演示，我直接在桌面创建了一个MyPlugins的文件夹, 这一步可以省略，至于为什么，请看第二步就明白了。
  
- ![插件存放文件夹](http://upload-images.jianshu.io/upload_images/2925367-f16b19b3f191a00f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![插件存放文件夹](使用-plugman-创建Cordova插件-iOS为例/2925367-f16b19b3f191a00f.jpg)
  
  ### 2. 执行一下命令创建插件
  
@@ -58,11 +58,11 @@ egg : plugman create --name MyPlugin --plugin_id com.charls.MyPlugin --plugin_ve
 
 创建成功以后MyPlugins文件夹下会出现一个MyPlugin的文件夹:
 
-![插件创建成功](http://upload-images.jianshu.io/upload_images/2925367-97b40f59672f3e32.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![插件创建成功](使用-plugman-创建Cordova插件-iOS为例/2925367-97b40f59672f3e32.jpg)
 
 文件结构目录如下:
 
-![插件文件目录](http://upload-images.jianshu.io/upload_images/2925367-ade221c02ba54734.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![插件文件目录](使用-plugman-创建Cordova插件-iOS为例/2925367-ade221c02ba54734.jpg)
 
 ### 3. 为插件添加支持平台
 - cd 到你的插件根目录
@@ -75,7 +75,7 @@ egg : plugman platform add --platform_name ios
 
 你会发现这个时候插件的目录发生了变化:
 
-![添加了支持平台的目录结构](http://upload-images.jianshu.io/upload_images/2925367-5b7701bf5824f71f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![添加了支持平台的目录结构](使用-plugman-创建Cordova插件-iOS为例/2925367-5b7701bf5824f71f.jpg)
 
 - .m 文件当然就是你实现功能的原生代码
 - .js 文件就是开放给前端js调用的接口代码
@@ -142,7 +142,7 @@ egg: plugman createpackagejson
 
 如图: 最后，输入`yes`就行了
 
-![创建package.json文件](http://upload-images.jianshu.io/upload_images/2925367-6dd4b341efd6a3e9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![创建package.json文件](使用-plugman-创建Cordova插件-iOS为例/2925367-6dd4b341efd6a3e9.jpg)
 
 ### 6. 注意项
 ---
@@ -150,7 +150,7 @@ egg: plugman createpackagejson
 
 不过，还有些地方应该注意的。
 
-![plug.xml](http://upload-images.jianshu.io/upload_images/2925367-d049b9a15572f7fc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![plug.xml](使用-plugman-创建Cordova插件-iOS为例/2925367-d049b9a15572f7fc.jpg)
 
 - `clobbers` 中的 `target` 限制了你如何调用插件
 - `config-file` 中的内容会被配置到工程的`config.xml`中
@@ -176,23 +176,23 @@ cordova platform add ios --save
 
 如果不出意外的话:
 
-![插件安装成功](http://upload-images.jianshu.io/upload_images/2925367-90f671cc77e43ee7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![插件安装成功](使用-plugman-创建Cordova插件-iOS为例/2925367-90f671cc77e43ee7.jpg)
 
 再看看工程中的plugins目录是否存在这个插件
 
-![插件安装成功plugins](http://upload-images.jianshu.io/upload_images/2925367-f3fa5458e6274cec.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![插件安装成功plugins](使用-plugman-创建Cordova插件-iOS为例/2925367-f3fa5458e6274cec.jpg)
 
 修改index.html 和 index.js
 
-![修改index.html](http://upload-images.jianshu.io/upload_images/2925367-4dfcbc3c3fc7c8fd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改index.html](使用-plugman-创建Cordova插件-iOS为例/2925367-4dfcbc3c3fc7c8fd.jpg)
 
-![修改index.js](http://upload-images.jianshu.io/upload_images/2925367-517dbbb270f40ee2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![修改index.js](使用-plugman-创建Cordova插件-iOS为例/2925367-517dbbb270f40ee2.jpg)
 
 然后执行:
 cordova run ios
 
 最后运行效果:
-![运行效果](http://upload-images.jianshu.io/upload_images/2925367-65b71ee91749bf77.gif?imageMogr2/auto-orient/strip)
+![运行效果](使用-plugman-创建Cordova插件-iOS为例/2925367-65b71ee91749bf77.gif)
 
 [Demo地址](https://github.com/CharlsPrince/MyPluginsDemo)
 

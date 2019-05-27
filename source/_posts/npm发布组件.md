@@ -144,7 +144,7 @@ npm publish
 ```
 npm search cp-verification
 ```
-![搜索组件](https://ws3.sinaimg.cn/large/006tNc79gy1foq69vyn3gj30hw00i74c.jpg)
+![搜索组件](npm发布组件/006tNc79gy1foq69vyn3gj30hw00i74c.jpg)
 
 ## 版本号规范
 常规组件发布版本都是使用语义化版本，npm社区版本号规则采用的是[semver](https://semver.org/lang/zh-CN/)（语义化版本），版本格式为:主版本号.次版本号.修订号,版本号递增规则如下：

@@ -49,6 +49,6 @@ tags:
 ```
 
 #### 看看效果：
-![runtime效果.gif](http://upload-images.jianshu.io/upload_images/2925367-ab04505e35a95669.gif?imageMogr2/auto-orient/strip)
+![runtime效果.gif](Runtime方法交换机制/2925367-ab04505e35a95669.gif)
 
 

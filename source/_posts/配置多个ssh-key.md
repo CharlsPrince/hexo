@@ -80,4 +80,4 @@ Welcome to GitLab, 黄佑成!
 ```
 
 # 目录结构
-![目录结构](https://ws4.sinaimg.cn/large/006tNc79gy1g329zv9f1pj317o0nsdng.jpg)
+![目录结构](配置多个ssh-key/006tNc79gy1g329zv9f1pj317o0nsdng.jpg)

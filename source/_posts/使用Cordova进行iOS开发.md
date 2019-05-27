@@ -16,7 +16,7 @@ sudo npm install -g cordova  // 尽量不要使用sudo
 sudo npm uninstall cordova -g
 ~~~
 
-![cordova的安装.png](http://upload-images.jianshu.io/upload_images/2925367-ddf98c3283fdd8f7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![cordova的安装.png](使用Cordova进行iOS开发/2925367-ddf98c3283fdd8f7.png)
 
 <!-- more -->
 
@@ -54,12 +54,12 @@ cordova build
 cordova platform add ios
 ~~~
 
-![效果图.png](http://upload-images.jianshu.io/upload_images/2925367-423d3aa219632731.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![效果图.png](使用Cordova进行iOS开发/2925367-423d3aa219632731.png)
 
 ### 3、cordova项目
 ###### 3、1 cordova项目创建完成
 
-![项目创建完成.png](http://upload-images.jianshu.io/upload_images/2925367-a19d1330104cd363.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![项目创建完成.png](使用Cordova进行iOS开发/2925367-a19d1330104cd363.png)
 
 ###### 3、2 Events Cordova声明周期事件
   *  deviceready 当Cordova加载完成会触发
@@ -90,7 +90,7 @@ function onDeviceReady() {
 ~~~
 运行结果：
 
-![运行结果.png](http://upload-images.jianshu.io/upload_images/2925367-87aa05ff98cb21ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![运行结果.png](使用Cordova进行iOS开发/2925367-87aa05ff98cb21ac.png)
 
   * pause 当应用程序进入到后台会触发
   * resumes 应用程序从后台进入到前台会触发
@@ -132,7 +132,7 @@ function onResume() {
 ~~~
 
 
-![运行结果.png](http://upload-images.jianshu.io/upload_images/2925367-62548f4cf99259ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![运行结果.png](使用Cordova进行iOS开发/2925367-62548f4cf99259ac.png)
 
 ######3、3[Plugin APIs](http://cordova.apache.org/docs/en/deprecated.html)
 
@@ -143,7 +143,7 @@ cordova plugin add cordova-plugin-console
 ~~~
 
 ![console插件安装
-![Uploading 屏幕快照 2017-02-18 上午1.35.13_535134.png . . .]](http://upload-images.jianshu.io/upload_images/2925367-3e5755e6bdeeab5c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Uploading 屏幕快照 2017-02-18 上午1.35.13_535134.png . . .]](使用Cordova进行iOS开发/2925367-3e5755e6bdeeab5c.png)
 2> 实例
 将index.html中的文本替换成如下文本：
 ~~~
@@ -218,7 +218,7 @@ function consoleTimeEnd(){
 ~~~
 运行结果：
 
-![Safiri+Xcode+Simulator运行结果](http://upload-images.jianshu.io/upload_images/2925367-371b5b3810224c78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Safiri+Xcode+Simulator运行结果](使用Cordova进行iOS开发/2925367-371b5b3810224c78.png)
 
 感谢：[使用Cordova进行iOS开发](http://www.jianshu.com/p/d24219c008b6)
 
